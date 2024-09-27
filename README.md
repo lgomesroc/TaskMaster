@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# TaskMaster
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskMaster é uma aplicação web simples desenvolvida em React que permite gerenciar suas tarefas diárias. Com ela, você pode adicionar, visualizar e remover tarefas de forma fácil e intuitiva.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Adicionar Tarefas**: Insira uma nova tarefa e adicione-a à lista.
+- **Visualizar Tarefas**: Veja todas as tarefas que você adicionou em uma lista.
+- **Remover Tarefas**: Exclua tarefas que não são mais necessárias.
 
-### `npm start`
+## Tecnologias Usadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construir interfaces de usuário.
+- [Create React App](https://create-react-app.dev/) - Ferramenta para configurar rapidamente uma nova aplicação React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Como Instalar
 
-### `npm test`
+Siga as instruções abaixo para configurar o projeto localmente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu_usuario/taskmaster.git
+   cd taskmaster
+  
 
-### `npm run build`
+2. **Instale as dependências**:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Inicie a aplicação**:
+   ```bash
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A aplicação será iniciada no seu navegador padrão em http://localhost:3000.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Como Usar
+No campo de entrada, digite uma nova tarefa que deseja adicionar.
+Clique no botão "Adicionar" para incluir a tarefa na lista.
+Para remover uma tarefa, clique no botão "Remover" ao lado da tarefa que deseja excluir.
+Estrutura do Projeto
+```css
+taskmaster/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── TaskForm.js
+│   │   ├── TaskList.js
+│   │   └── Footer.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-### `npm run eject`
+Contribuições
+Se você deseja contribuir para o projeto, fique à vontade para abrir um pull request ou reportar problemas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Licença
+Este projeto está licenciado sob a MIT License.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Instruções
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Substitua** `seu_usuario` na URL do repositório Git com seu nome de usuário do GitHub.
+2. **Adicione qualquer informação extra** que considere relevante, como instruções específicas ou detalhes adicionais sobre o projeto.
